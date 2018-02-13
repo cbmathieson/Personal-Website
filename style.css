@@ -34,7 +34,7 @@ a:hover {
 .wrapper {
   max-width: 1000px;  /* constrains width for desktop */
   margin: 0 auto;
-  padding: 50px;
+  padding: 20px;
 }
 
 .flex-nav ul {
@@ -123,3 +123,54 @@ img.image {
 }
 
 /* home.html -------------------------------- */
+
+.bio {
+  color: white;
+  display: flex;
+  max-width: 1000px;
+  align-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.profile {
+  flex-grow: 1;
+  padding-left: 5%;
+}
+
+#home_img {
+  flex-basis: 37.5%;
+  max-height: 450px;
+  border-radius: 2%;
+}
+
+.info {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  flex-grow: 2;
+  max-width: 62.5%;
+  padding: 20px 40px;
+}
+
+#hi {
+  font-size: 300%;
+  height: 15%;
+}
+
+#name {
+  font-size: 150%;
+  height: 12%;
+}
+
+#extra-stuff {
+  font-size: 105%;
+}
+
+.top {
+  display: flex;
+  max-height:37.5%;
+  margin-left: 0;
+  padding: 0px;
+}

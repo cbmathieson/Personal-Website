@@ -1,0 +1,125 @@
+/* border box */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin:0;
+  background-color: #2c3e50;
+}
+
+a {
+  color: white;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-decoration:none;      /* gets rid of underline */
+  background:rgba(0,0,0,0,2);
+  padding: 20px 5px;
+  display: inline-block;
+  width: 100%;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+.selected {
+  opacity: .5;
+}
+
+a:hover {
+  opacity: .6;
+}
+
+.wrapper {
+  max-width: 1000px;  /* constrains width for desktop */
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.flex-nav ul {
+  border: 1px solid white;
+  border-radius: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex-nav li {
+  -webkit-box-flex:3;
+      -ms-flex:3;
+          flex:3;
+}
+
+.flex-nav .social {
+  -webkit-box-flex:1;
+      -ms-flex:1;
+          flex:1;
+}
+
+/* life.html ----------------------------------- */
+
+.content {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.content ul {
+  list-style: none;
+  padding: 0;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-pack:center;
+      -ms-flex-pack:center;
+          justify-content:center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap:wrap;
+      flex-wrap:wrap;
+}
+
+.cell {
+  max-width: 45%;
+  height: auto;
+  list-style-type: none;
+  padding: 5px;
+}
+
+.cell-vert {
+  max-width: 45%;
+  height: auto;
+  list-style-type: none;
+  padding: 5px;
+}
+
+img.image {
+  max-width: 100%;
+  height: 225px;
+}
+
+/* projects.html ---------------------------- */
+
+.sad {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+}
+
+/* home.html -------------------------------- */

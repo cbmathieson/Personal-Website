@@ -1,4 +1,4 @@
-first website# Personal Website
+# Personal Website
 
 Static website about me, my life, and the projects I've worked on
 
